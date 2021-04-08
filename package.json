@@ -1,0 +1,39 @@
+{
+  "name": "video-to-mp3-server",
+  "version": "1.0.0-beta",
+  "description": "App converts video from different sources to mp3.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/42zeroo/video-to-mp3-server.git"
+  },
+  "keywords": [
+    "youtube",
+    "vimeo",
+    "mp3",
+    "heroku"
+  ],
+  "author": "42zeroo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/42zeroo/video-to-mp3-server/issues"
+  },
+  "homepage": "https://github.com/42zeroo/video-to-mp3-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "ytdl-core": "^4.5.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
